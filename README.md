@@ -28,7 +28,7 @@ This plugin allows you to check if an app is installed that can handle a specifi
 ### Automatically (CLI / Plugman)
 
 ```
-$ cordova plugin add https://github.com/nchutchind/cordova-plugin-app-launcher.git
+$ cordova plugin add https://github.com/LU-Mobile/cordova-plugin-app-launcher.git
 ```
 and then (this step will modify your project):
 ```
@@ -73,7 +73,7 @@ Add the following xml to your `config.xml` to always use the latest version of t
 ```
 or to use a specific version:
 ```xml
-<gap:plugin name="cordova-plugin-app-launcher" version="0.3.1" />
+<gap:plugin name="cordova-plugin-app-launcher" version="0.4.0" />
 ```
 For iOS 9+, the following may need to be added so that the URLs used to launch apps can be whitelisted (in this example, customSchemeName:// and fb:// would have been the URLs registered to the apps we want to be able to launch):
 ```xml
