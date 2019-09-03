@@ -2,9 +2,16 @@
   "name": "cordova-plugin-app-launcher",
   "version": "0.4.0",
   "description": "This plugin allows you to see if other apps are installed and launch them. On Android, you can send extras to the launched Activity and receive result data (if available), as well as retrieve a list of applications that can open a specified uri.",
+  "cordova": {
+    "id": "com.hutchind.cordova.plugins.launcher",
+    "platforms": [
+      "ios",
+      "android"
+    ]
+  },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/nchutchind/cordova-plugin-app-launcher.git"
+    "url": "https://github.com/LU-Mobile/cordova-plugin-app-launcher.git"
   },
   "keywords": [
     "cordova",
@@ -13,10 +20,13 @@
     "cordova-android",
     "cordova-ios"
   ],
+  "engines": {
+    "cordova": ">=3.0.0"
+  },
   "author": "Nicholas Hutchind",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/nchutchind/cordova-plugin-app-launcher/issues"
+    "url": "https://github.com/LU-Mobile/cordova-plugin-app-launcher/issues"
   },
-  "homepage": "https://github.com/nchutchind/cordova-plugin-app-launcher#readme"
+  "homepage": "https://github.com/LU-Mobile/cordova-plugin-app-launcher#readme"
 }
